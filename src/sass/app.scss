@@ -1,0 +1,23 @@
+@import '../../../sdk/v0.4.x/sass/ui';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
