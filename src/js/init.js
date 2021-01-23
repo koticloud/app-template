@@ -1,9 +1,9 @@
 // Initialize a new Koti Cloud app
 import { App } from '../../../sdk/v0.4.x/sdk.js';
 
-window.app = new App();
+window.sdk = new App();
 
-app.init({
+sdk.init({
     serviceWorker: 'sw.js',
     cacheable: {
         untilUpdate: [
@@ -26,4 +26,4 @@ app.init({
 });
 
 // Check for updates (async)
-app.checkForUpdates();
+sdk.checkForUpdates();
