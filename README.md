@@ -2,6 +2,8 @@
 
 This is the official app template for [Koti Cloud](https://koti.cloud) app developers.
 
+This is a Vanilla JS variation of the template.
+
 ## Usage
 
 ```
@@ -12,7 +14,6 @@ rm -rf .git
 npm install
 ```
 
-To build the app use one of these commands (uses [laravel-mix](https://github.com/JeffreyWay/laravel-mix)):
-- `npm run dev` - build a dev version
-- `npm run watch` - live reloading
-- `npm run prod` - build a prod (minified) version
+To build the app use one of these commands:
+- `npm run dev` - run development server with hot reloading feature
+- `npm run build` - build the app for production
