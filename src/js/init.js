@@ -12,7 +12,7 @@ sdk.init({
             './',
             './manifest.json',
             './bin/app.js',
-            './assets/css/app.css',
+            './bin/app.css',
             // App icons
             './assets/icons/favicon.ico',
             './assets/icons/icon-128.png',
