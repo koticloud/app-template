@@ -6,7 +6,7 @@ window.sdk = new App();
 
 sdk.init({
     serviceWorker: 'sw.js',
-    cacheable: {
+    cacheables: {
         untilUpdate: [
             // NOTE: Edit as needed
             './',
