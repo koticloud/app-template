@@ -45,7 +45,10 @@ export default {
         }),
         // we'll extract any component CSS/SASS out into
         // a separate file - better for performance
-        scss({ outputStyle: 'compressed' }),
+        scss({
+            sass: require('sass'),
+            outputStyle: 'compressed'
+        }),
         css({ output: 'app.css' }),
 
         // If you have external dependencies installed from
